@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to right,
+            red,
+            orange,
+            yellow,
+            green,
+            blue,
+            indigo,
+            violet);
+}
+
+#ot {
+    color: red;
+    font-family: "Pangolin", cursive;
+}
+
+#two {}
+
+.klada {
+    height: 6px;
+    background-color: black;
+    width: 200px;
+    margin: 8px auto;
+}
+
+#ote {
+    font-size: 30px;
+    font-family: "Lobster", cursive;
+    color: #fff;
+}
+
+.menu {
+    font-family: sans-serif;
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+    list-style: none;
+    position:sticky;
+    top:0;
+    z-index:99999;
+}
+
+.links {
+    float: right;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #fff;
+    font-size: 20;
+    font-family: fantasy
+}
+
+.links:hover {
+    background-color: black;
+}
+
+.sone {
+    text-align: center;
+}
+.line{
+    width: 50;
+    height: 10;
+    background-color: black;
+    margin: auto;
+}
+#imgm{
+    transition:transform .2sc;
+}
+#imgm:hover{
+    width: 270;
+    height: 310;
+}
+a{
+    text-decoration: none;
+    
+}
+#a2{
+    color: black;
+    font-weight: bold;
+}
